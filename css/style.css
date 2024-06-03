@@ -1,0 +1,330 @@
+
+/* -----------Header section here----------- */
+
+header {
+    background-color: #121430;
+}
+
+.menu ul li {
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.menu ul li:hover {
+    background-color: #ffffff;
+}
+
+.menu ul li:hover a {
+    color: black !important;
+}
+
+.menu ul li a {
+    color: #ffffff !important;
+    font-size: 18px;
+}
+
+header .image {
+    width: 50px;
+    height: 50px;
+}
+
+header .image a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* --------------Hero section here----------- */
+.hero-section {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #121430;
+    color: #ffffff;
+}
+
+.hero-section .image {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-section .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.hero-left a {
+    color: #ffffff;
+    box-shadow: 0px 0px 0px 1px #ffffff;
+}
+
+.hero-left a:hover {
+    color: #121430;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 1px #ffffff;
+}
+
+.hero-sub-heading {
+    line-height: 35px;
+}
+
+/* ----------About sewction here----------- */
+.about-section {
+    background-color: #121430;
+    color: #ffffff;
+    padding-bottom: 80px;
+}
+
+.about-heading {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.about-heading h2::after {
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+}
+
+.line img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-description {
+    box-shadow: 0px 0px 30px -18px #fff;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* .about-description:hover {
+    box-shadow: 0px 0px 1px 1px #fff;
+    transition: .5s;
+}  */
+
+.about-description i {
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+.about-description p {
+    line-height: 35px;
+}
+
+/* ----------Contact section here--------- */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    outline: 0;
+    border: none;
+    background-color: #121430;
+    color: #ffffff;
+}
+
+.contact-heading h2 {
+    color: #ffffff;
+}
+
+.contact-heading {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.contact-heading h2::after {
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact-section {
+    background-image: url(../image/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+
+.contact-form {
+    background: #ffffffc7;
+    padding: 40px;
+    border-radius: 18px;
+}
+
+.contact-form button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #121430;
+    outline: 0;
+    border: none;
+    font-size: 16px;
+    font-weight: bold !important;
+    box-shadow: 0px 0px 0px 1px #ffffff;
+}
+
+.contact-form button:hover {
+    box-shadow: 0px 0px 0px 1px #121430;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* --------Portfolio section here---------- */
+
+.portfolio-section {
+    background-color: #121430;
+    color: #ffffff;
+    padding-bottom: 80px;
+}
+
+.portfolio-heading {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.portfolio-heading h2::after {
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.portfolio-item {
+    width: 100%;
+}
+
+.portfolio-item img {
+    width: 100%;
+}
+
+.portfolio-btn a {
+    color: #ffffff;
+    box-shadow: 0px 0px 0px 1px #ffffff;
+}
+
+.portfolio-btn a:hover {
+    color: #121430;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 1px #ffffff;
+}
+
+/* -------Reviews section here--------- */
+
+.reviews-section {
+    background-color: #121430;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.reviews-heading {
+    margin-bottom: 100px;
+}
+
+.reviews-heading h2::after {
+    content: "";
+    display: block;
+    background-color: #ffffff;
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.owl-1 h2 {
+    margin-bottom: 20px;
+}
+
+.owl-1 p {
+    margin-top: 10px;
+}
+
+.owl-1 {
+    box-shadow: 0px 0px 30px -18px #fff;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.owl-1 .image {
+    width: 100px;
+    height: 100px;
+}
+
+.owl-1 .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+
+}
+
+.owl-1 i {
+    color: #fcc311;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    margin-top: 40px;
+}
+
+/* Footer section here */
+
+.footer-section {
+    background-color: #121430;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+.footer-section .line {
+    width: 100%;
+    background-color: #ffffff29;
+    margin-bottom: 40px;
+}
+.footer-section .image {
+    width: 80px;
+    height: 80px;
+}
+.footer-section img {
+    width: 100%;
+    height: 100%;
+}
+.footer-section a i:hover {
+    background-color: #fff;
+    color: #000000;
+}
+.footer-section a i {
+    color: #ffffff;
+    font-size: 30px;
+    padding: 8px;
+    border-radius: 50%;
+}
